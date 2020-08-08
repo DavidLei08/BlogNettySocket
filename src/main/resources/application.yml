@@ -1,0 +1,13 @@
+
+club.dlblog.socketio:
+        host: localhost
+        port: 9000
+
+# log level
+logging.level:
+        root: WARN
+        org.springframework: DEBUG
+        org.apache.coyote.http11.Http11InputBuffer: DEBUG
+        club.dlblog.netty.socketio: DEBUG
+        sample.mybatis.mapper: DEBUG
+        org.apache.ibatis: DEBUG
